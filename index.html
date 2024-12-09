@@ -1,0 +1,26 @@
+---
+layout: default
+title: Squib City
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/main.css"> <!-- Link to your external CSS -->
+  <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <img src="assets/images/house-hi.png" alt="House" usemap="#house-map" class="clickable-building" id="house-img" />
+
+  <!-- Image map -->
+  <map name="house-map">
+    <area target="_self" alt="House" title="Go to homepage" href="https://liankwang.github.io/" coords="283,-1,290,1,214,69,213,11,88,9,89,194,2,289,46,297,49,593,527,595,532,298,578,293,580,279" shape="poly" id="house-area">
+  </map>
+
+  <script src="/assets/js/script.js"></script>
+
+</body>
+</html>
